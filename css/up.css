@@ -1,0 +1,41 @@
+.class {
+
+    margin: 0 auto;
+}
+#back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 5%;
+}
+#back-top a {
+
+    width: 48px;
+    display: block;
+    text-align: center;
+    font: bold 12px Arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+
+}
+#back-top a:hover {
+    text-decoration: underline;
+}
+#back-top span {
+	vertical-align: middle;
+	padding-top: 15px;
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-bottom: -10px;
+    background: rgba(0, 0, 0, .8);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+		-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
