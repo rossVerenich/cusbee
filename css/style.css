@@ -1,0 +1,172 @@
+body{
+	background-color: #f8c301;
+}
+
+header{
+	position: relative;
+	display: inline-block;
+	height: 160px;
+	vertical-align: middle
+}
+.container{
+	margin-left: 0;
+}
+
+.page{
+	display: inline-block;
+}
+#top{
+	width: 100%;
+}
+
+.logo{
+	padding-top: 5px;
+}
+.white{
+	width: 102.4%;
+	display: inline-block;
+	background-color: white;
+
+}
+
+.nav{
+	float: right;
+	padding-top: 40px;
+	font: bold 17px sans-serif;
+	text-align: right;
+}
+.nav a{
+
+	color: #555;
+	height: 20px;
+
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 2px solid #555;
+
+	font-size: 15px;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+.nav a:last-child {
+	border-right: none;
+}
+
+.mail{
+	width: auto;
+	color: #333;
+	float: right;
+	top: 25px;
+	font-size: 16px;
+	font-weight: 800;
+	vertical-align: middle;
+}
+.page{
+	width: 100%;
+	padding-left: 20%;
+	display: inline-block;
+	position: absolute;
+	
+}
+
+
+.big-title{
+	padding-top: 70px;
+	height: 200px;
+}
+.big-title h2{
+	font-size: 36px;
+}
+.orange{color: #f8c301;}
+.orange-line{
+	margin-top: 15px;
+	margin-left: 25%;
+	height: 2px;
+	width: 50%;
+	background-color: #f8c301;
+	border: none;
+}
+.description{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#hider {
+	text-align: left;
+	display:none;
+}
+
+.project{
+	margin-top: 20px;
+	vertical-align: middle
+}
+.col-md-6 img{
+	height: 175px;
+	width: 175px;
+}
+.bold{
+	text-align: left;
+	font-weight: 500;
+}
+.descr p{
+	margin-top: 20px;
+	font: 16px 'ArialRegular' sans-serif;
+	text-align: left;
+}
+#hider{
+	float: left;
+}
+.list{
+	font: 16px 'ArialRegular' sans-serif;
+	font-weight: 500;
+	text-align: left;
+}
+.list{
+	list-style-type: disc;
+}
+.btn{
+	float: left;
+	margin-top: 20px;
+	width: 130px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+#project-service{
+	text-align: center;
+	
+}
+.tripple{
+	padding-bottom: 50px;
+}
+.col-md-3 h2{
+	text-align: center;
+}
+.col-md-3 p{
+	text-align: center;
+}
+.fat{font-weight: 600;}
+.grey-line{
+	margin-top: 15px;
+	margin-left: 25%;
+	height: 2px;
+	width: 50%;
+	background-color: #555;
+	border: none;
+}
+.col-md-3 .btn{float: none;}
+#hider.center-align{
+	text-align: center;
+}
+
+.footer{
+	text-align: left;
+	padding-top: 120px;
+	padding-left: 15%;
+	height: 350px;
+	border-top: solid 2px #555;
+}
